@@ -5,7 +5,7 @@ from FnAssetAPI.ui.toolkit import QtGui
 import FnAssetAPI
 import FnAssetAPI.ui.widgets
 
-import ftrack
+import ftrack_legacy as ftrack
 
 
 class WorkflowRelationship(

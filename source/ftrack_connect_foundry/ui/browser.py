@@ -13,7 +13,7 @@ import FnAssetAPI.ui.dialogs
 import FnAssetAPI.specifications
 import FnAssetAPI.exceptions
 import FnAssetAPI.logging
-import ftrack
+import ftrack_legacy as ftrack
 
 import ftrack_connect_foundry.ui.detail_view
 

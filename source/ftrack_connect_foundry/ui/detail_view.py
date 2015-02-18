@@ -5,7 +5,7 @@ import os
 import urllib2
 
 from FnAssetAPI.ui.toolkit import QtCore, QtGui
-import ftrack
+import ftrack_legacy as ftrack
 
 
 class DetailView(QtGui.QWidget):

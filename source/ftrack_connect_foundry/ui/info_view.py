@@ -8,7 +8,7 @@ from FnAssetAPI.ui.toolkit import QtCore
 import FnAssetAPI.logging
 import FnAssetAPI.exceptions
 import FnAssetAPI.ui.widgets
-import ftrack
+import ftrack_legacy as ftrack
 
 import ftrack_connect_foundry.ui.web_view
 

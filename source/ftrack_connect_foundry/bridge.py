@@ -10,7 +10,7 @@ import FnAssetAPI.constants
 import FnAssetAPI.specifications
 import FnAssetAPI.exceptions
 import FnAssetAPI.logging
-import ftrack
+import ftrack_legacy as ftrack
 
 import ftrack_connect_foundry.event
 import ftrack_connect_foundry.proxy

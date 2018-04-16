@@ -1,7 +1,7 @@
 # :coding: utf-8
 # :copyright: Copyright (c) 2014 ftrack
 
-from FnAssetAPI.ui.toolkit import QtCore, QtGui, QtWebCompat
+from FnAssetAPI.ui.toolkit import QtCore, QtGui, QtWebCompat, QtWidgets
 import FnAssetAPI.ui.widgets
 import FnAssetAPI.ui.widgets.attributes
 
@@ -31,13 +31,13 @@ class WebView(FnAssetAPI.ui.widgets.BaseWidget):
         '''Build and layout widget.'''
         self.setMinimumHeight(400)
         self.setSizePolicy(
-            QtGui.QSizePolicy(
-                QtGui.QSizePolicy.Expanding,
-                QtGui.QSizePolicy.Expanding
+            QtWidgets.QSizePolicy(
+                QtWidgets.QSizePolicy.Expanding,
+                QtWidgets.QSizePolicy.Expanding
             )
         )
 
-        layout = QtGui.QVBoxLayout()
+        layout = QtWidgets.QVBoxLayout()
         layout.setContentsMargins(0, 0, 0, 0)
         layout.setSpacing(0)
         self.setLayout(layout)

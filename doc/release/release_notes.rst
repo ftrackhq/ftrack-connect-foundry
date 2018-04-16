@@ -8,6 +8,13 @@
 Release notes
 *************
 
+.. release:: Upcoming
+
+    .. change:: fixed
+        :tags: API
+
+        Not all the code has been ported to PySide2.
+
 .. release:: 1.1.0
     :date: 2017-09-12
 

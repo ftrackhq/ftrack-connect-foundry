@@ -8,6 +8,12 @@
 Release notes
 *************
 
+.. release:: Upcoming
+    .. change:: changed
+        :tags: internal
+
+        Remove ftrack-connect dependency.
+
 .. release:: 1.1.1
     :date: 2018-04-27
     .. change:: fixed

@@ -54,16 +54,11 @@ setup(
         'sphinx_rtd_theme >= 0.1.6, < 2',
         'lowdown >= 0.1.0, < 1'
     ],
-    install_requires=[
-        'ftrack-connect >= 1.0, < 2'
-    ],
     tests_require=['pytest >= 2.3.5'],
     cmdclass={
         'test': PyTest
     },
     dependency_links=[
-        ('https://bitbucket.org/ftrack/ftrack-connect/get/1.1.0.zip'
-        '#egg=ftrack-connect-1.0.0'),
         ('https://bitbucket.org/ftrack/lowdown/get/0.1.0.zip'
          '#egg=lowdown-0.1.0')
     ]

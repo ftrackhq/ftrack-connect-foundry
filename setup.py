@@ -38,7 +38,7 @@ class PyTest(TestCommand):
 
 setup(
     name='ftrack-connect-foundry',
-    version='1.1.1',
+    version='1.2.0',
     description='ftrack integration with The Foundry API.',
     long_description=open(README_PATH).read(),
     keywords='ftrack, integration, connect, the foundry',

@@ -35,7 +35,7 @@ def openPublishedScript(entityRef, context=None):
     context.access = context.kRead
     context.locale = FnAssetAPI.specifications.DocumentLocale()
 
-    path = session.resolveIfReference(entityRef, context)
+    path = session.resolveIfReference(entityRef, context).replace('\\', '/')
 
     # If we clear the script, then we'll still be in this process, so we can
     # tag it, otherwise, we fork and tag the old scipt not the one we opened.

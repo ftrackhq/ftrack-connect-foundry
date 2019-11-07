@@ -8,6 +8,13 @@
 Release notes
 *************
 
+.. release:: Upcoming
+
+    ..change:: fix
+        :tags: Browse
+
+        Error on string encoding while importing published scripts on windows.
+
 .. release:: 1.2.0
     :date: 2018-12-19
 

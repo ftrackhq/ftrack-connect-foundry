@@ -15,7 +15,7 @@ import FnAssetAPI.specifications
 import FnAssetAPI.exceptions
 import FnAssetAPI.logging
 import ftrack
-import ftrack_connect.ui.widget.header
+import ftrack_connector_legacy.ui.widget.header
 
 import ftrack_connect_foundry.ui.detail_view
 
@@ -97,7 +97,7 @@ class Browser(FnAssetAPI.ui.widgets.BrowserWidget):
         self.setLayout(layout)
 
         # Header
-        header = ftrack_connect.ui.widget.header.Header(getpass.getuser(), self)
+        header = ftrack_connector_legacy.ui.widget.header.Header(getpass.getuser(), self)
         header.setSizePolicy(
             QtWidgets.QSizePolicy.MinimumExpanding, QtWidgets.QSizePolicy.Fixed
         )

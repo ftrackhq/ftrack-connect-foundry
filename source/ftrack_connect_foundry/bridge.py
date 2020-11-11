@@ -12,7 +12,7 @@ import FnAssetAPI.exceptions
 import FnAssetAPI.logging
 import ftrack
 
-import ftrack_connect.session
+import ftrack_connector_legacy.session
 import ftrack_connect_foundry.event
 import ftrack_connect_foundry.proxy
 import ftrack_connect_foundry.constant
@@ -118,7 +118,7 @@ class Bridge(object):
         entity = self.getEntityById(entityRef)
         resolved = None
 
-        session = ftrack_connect.session.get_shared_session()
+        session = ftrack_connector_legacy.session.get_shared_session()
 
         if isinstance(entity, ftrack.Component):
             # Prevent writing to asset.
@@ -949,7 +949,7 @@ class Bridge(object):
                 .format(entity),
                 targetReference
             )
-        session = ftrack_connect.session.get_shared_session()
+        session = ftrack_connector_legacy.session.get_shared_session()
 
         version = session.create('AssetVersion', {
             'asset_id':asset.getId(),

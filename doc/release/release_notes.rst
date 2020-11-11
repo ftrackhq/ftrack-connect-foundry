@@ -8,6 +8,14 @@
 Release notes
 *************
 
+.. release:: Upcoming
+
+   ..change:: changed
+        :tags: API
+
+        Use ftrack connector legacy repository in place of ftrack-connect.
+
+
 .. release:: 1.2.1
     :date: 2019-11-15
 

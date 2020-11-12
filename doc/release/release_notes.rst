@@ -8,12 +8,13 @@
 Release notes
 *************
 
-.. release:: Upcoming
+.. release:: 2.0.0
+    :date: 2020-11-12
 
    ..change:: changed
         :tags: API
 
-        Use ftrack connector legacy repository in place of ftrack-connect.
+        Use ftrack `connector legacy repository <https://bitbucket.org/ftrack/ftrack-connector-legacy>`_ in place of ftrack-connect.
 
 
 .. release:: 1.2.1
